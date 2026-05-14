@@ -1,0 +1,30 @@
+# QTAP: Quantum Torsion Angle Predictor
+# Requirements — tested on Python 3.10+
+# Install in Colab via: pip install -r requirements.txt
+
+# Quantum computing
+qiskit>=1.0.0
+qiskit-aer>=0.14.0
+qiskit-algorithms>=0.3.0
+pennylane>=0.36.0
+pennylane-qiskit>=0.36.0
+openfermioncirq>=0.4.0
+
+# Scientific computing
+numpy>=1.24.0
+scipy>=1.11.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+pandas>=2.0.0
+
+# Biology / structure
+biopython>=1.81
+
+# Machine learning (classical baseline)
+torch>=2.1.0
+scikit-learn>=1.3.0
+
+# Utilities
+tqdm>=4.65.0
+jupyter>=1.0.0
+ipywidgets>=8.0.0
